@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Hiroki Endo
+Hiroki Endo
+Hardware Engineer
 
 Show Contacts
 
 Email
-richard@example.com
+he2305[at]columbia.edu
 
 Phone
-+1 (213) 352-2795
++1 (646) 281-1401
 
-Birthday
-June 23, 1982
+Graduation Date
+December 20, 2025
 
 Location
-Sacramento, California, USA
+New York, NY, USA
 
 # navbar
 
@@ -32,25 +32,25 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Hello! I'm Hiroki, a 1st-year MS student at Columbia University. With experience working across the US, Japan, and China in both industry and research settings, I've developed a strong foundation in electrical engineering and a keen interest in harnessing technology to drive meaningful impact. I've had the privilege of not only collaborating with groups of innovative experts, but also working on a wide range of hardware platforms and programming languages - from digital RTL design to verification to AI-powered IoT devices.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+What drives my passion for electrical engineering is the desire to push boundaries, challenge assumptions, and create meaningful impact in this ever-evolving field. After graduation, I'm eager to join a forward-thinking team that shares my passion for applying technology to transform lives.
 
 
 ## service
 
-What i'm doing
+What I'm doing
 
-alt = design icon
-Web design
+alt = Web development icon
+RTL Design
 The most modern and high-quality design made at a professional level.
 
 alt = Web development icon
-Web development
+Hardware Verification
 High-quality development of sites at the professional level.
 
-alt = mobile app icon
-Mobile apps
+alt = design icon
+Physical Design
 Professional development of applications for iOS and Android.
 
 alt = camera icon
