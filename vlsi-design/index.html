@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLSI Design Project</title>
+
+  <!-- Use relative paths to link your assets, since this file is in /vlsi-design/ -->
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- Ionicons (optional, if you need icons) -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+  <main>
+
+    <!-- Simple header (you can replicate the same sidebar if you want) -->
+    <header style="text-align: center; padding: 2rem;">
+      <h1>VLSI Design Project</h1>
+      <p style="margin-top: 0.5rem;">A deeper look into my hardware design portfolio.</p>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <article class="portfolio" style="margin: 0 auto; max-width: 900px; padding: 1rem;">
+      <section class="projects">
+
+        <!-- Project detail -->
+        <div class="project-item active" data-filter-item data-category="hardware" style="margin-bottom: 2rem;">
+          <figure class="project-img" style="margin-bottom: 1rem;">
+            <img 
+              src="../assets/images/project-vlsi.jpg"
+              alt="VLSI Design Implementation"
+              style="max-width: 100%; height: auto;"
+            >
+          </figure>
+
+          <h2 class="h2">VLSI Physical Design Flow</h2>
+          <p>
+            This project showcases my experience with RTL-to-GDSII flow for a sample SoC block. The focus is on:
+          </p>
+          <ul style="margin-left: 1.5rem; list-style: disc;">
+            <li>Logic synthesis (Design Compiler)</li>
+            <li>Placement and routing (Innovus)</li>
+            <li>Timing closure and signoff (PrimeTime)</li>
+            <li>Power integrity and IR drop analysis</li>
+          </ul>
+          <p>
+            Tools used: <strong>Synopsys Design Compiler, Cadence Innovus, Synopsys PrimeTime</strong>. 
+          </p>
+        </div>
+
+        <!-- Additional content or images if desired -->
+        <div style="margin-bottom: 2rem;">
+          <h3 class="h3">Highlights</h3>
+          <p>
+            Implemented dynamic power optimization techniques, clock gating, and multi-voltage domains. Achieved a 
+            20% area reduction compared to baseline while meeting strict timing constraints.
+          </p>
+        </div>
+
+        <!-- Return to main page link -->
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="/" class="form-btn" style="display: inline-block; padding: 1rem 2rem; text-decoration: none;">
+            <!-- Ionicon home icon (optional) -->
+            <ion-icon name="home-outline" style="vertical-align: middle; margin-right: 0.5rem;"></ion-icon>
+            Back to Main Page
+          </a>
+        </div>
+
+      </section>
+    </article>
+
+  </main>
+
+  <!-- (Optional) If you rely on any custom JS used by the main site (e.g. for scrolling animations), add it: -->
+  <!-- <script src="../assets/js/script.js"></script> -->
+
+</body>
+</html>
