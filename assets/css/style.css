@@ -355,6 +355,7 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+  min-width: 280px;
 }
 
 .sidebar.active { max-height: 405px; }
@@ -1241,7 +1242,14 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #REUSED STYLE
    */
 
-  .sidebar, article {
+  .sidebar {
+    /* Increase to your liking, e.g. 360, 380, 400px, etc. */
+    width: 600px;
+    margin-inline: auto;
+    padding: 30px;
+  }
+
+  .article {
     width: 520px;
     margin-inline: auto;
     padding: 30px;
